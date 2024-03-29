@@ -533,6 +533,20 @@ p {
 }
 /* End Footer */
 
+#aboutMeDetail {
+    color: black;
+    text-align: center; 
+
+    @media only screen and (min-width: 768px) {
+        text-align: left; 
+    }
+
+    @media only screen and (min-width: 1200px) {
+        text-align: left; 
+    }
+    
+}
+
 /* Keyframes */
 @keyframes hamburger_puls {
 	0% {
@@ -567,12 +581,21 @@ p {
 }
 /* End Keyframes */
 
+
+
+
+
 /* Media Query For Tablet */
 @media only screen and (min-width: 768px) {
 	.cta {
 		font-size: 2.5rem;
 		padding: 20px 60px;
 	}
+/* 	
+#aboutMeDetail{
+	color: black;
+	text-align: left;
+} */
 	h1.section-title {
 		font-size: 6rem;
 	}
